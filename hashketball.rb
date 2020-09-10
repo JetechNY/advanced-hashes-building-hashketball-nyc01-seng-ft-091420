@@ -3,8 +3,7 @@ require 'spec_helper'
 require 'pry'
 
 def game_hash
-game_hash = {}
-game_hash = {:home => {
+ {          :home => {
                 :team_name => "Brooklyn Nets",
                 :colors => ["Black", "White"],
                 :players => [
